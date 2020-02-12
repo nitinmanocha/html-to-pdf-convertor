@@ -1,0 +1,34 @@
+{
+  "name": "expressjs",
+  "version": "1.0.0",
+  "description": "html to pdf converter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitinmanocha/html-to-pdf-convertor.git"
+  },
+  "keywords": [
+    "html",
+    "pdf",
+    "nodejs",
+    "expressjs"
+  ],
+  "author": "https://nitinmanocha.in",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nitinmanocha/html-to-pdf-convertor/issues"
+  },
+  "homepage": "https://github.com/nitinmanocha/html-to-pdf-convertor#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "nodemon": "^2.0.2",
+    "path": "^0.12.7",
+    "phantom-html-to-pdf": "^0.6.0"
+  }
+}
